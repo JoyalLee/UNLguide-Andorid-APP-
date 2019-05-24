@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#E41936"
+    >
+        <TextView
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textColor="#ffff"
+            android:textSize="30sp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <AutoCompleteTextView
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/autoCompleteTextView1"
+        android:completionThreshold="2"
+        android:completionHint="Enter what you want"
+        android:layout_weight="7"
+        android:layout_width="wrap_content">
+    </AutoCompleteTextView>
+    <Button
+        android:text="Search"
+        android:id="@+id/button1"
+        android:layout_weight="1"
+        android:layout_marginLeft="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      Do you wanna :"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/gpa"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#34940a"
+            android:layout_marginLeft="80dp"
+            android:text="GPA?"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/majors"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#00e1ff"
+            android:layout_marginLeft="80dp"
+            android:text="Major?"
+            android:textSize="40dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/food"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ffbf00"
+            android:layout_marginLeft="8dp"
+            android:text="Food?"
+            android:textSize="100dp"/>
+        <TextView
+            android:id="@+id/parks"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ff0400"
+            android:layout_marginLeft="8dp"
+            android:text="park?"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/maps"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#cb980cb4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:text="Location?"
+            android:textSize="20dp"/>
+        <TextView
+            android:id="@+id/study"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#ff9d00"
+            android:layout_marginLeft="40dp"
+            android:text="Study?"
+            android:textSize="30dp"/>
+        <TextView
+            android:id="@+id/lgbt"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#020202"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="LGBT?"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/elses"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#0b11c4"
+
+            android:layout_marginLeft="30dp"
+            android:text="Anything else??"
+            android:textSize="40dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

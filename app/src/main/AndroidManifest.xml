@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joyal.unlguide">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/unl_ic"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Catelog.Location.CPNLocation">
+        </activity>
+        <activity android:name=".Catelog.Location.AbelLocation"></activity>
+        <activity android:name=".Catelog.Location.EastLocation"></activity>
+        <activity android:name=".Catelog.Location.HarperLocation"></activity>
+        <activity android:name=".Catelog.Location.SelleckLocation"></activity>
+        <activity android:name=".Catelog.Menu.AbelMenu"></activity>
+        <activity android:name=".Catelog.Menu.EastMenu"></activity>
+        <activity android:name=".Catelog.Menu.CpnMenu"></activity>
+        <activity android:name=".Catelog.Schedule.Schedule1"></activity>
+        <activity android:name=".Catelog.Schedule.Schedule2"></activity>
+        <activity android:name=".Fragment.NewsContent"></activity>
+        <activity android:name=".Webpage"></activity>
+<activity android:name=".Catelog.Group.Chinese"></activity>
+<activity android:name=".Catelog.GPA"></activity>
+<activity android:name=".Web"></activity>
+
+
+
+
+
+
+
+
+<activity android:name=".Catelog.Price"></activity>
+    <activity android:name=".user.Login"></activity>
+        <activity android:name=".Home"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".user.Register"></activity>
+        <activity android:name=".user.Agreement"></activity>
+<activity android:name=".Catelog.Academic"
+   android:screenOrientation="landscape" ></activity>
+   <activity android:name=".Catelog.Building"></activity>
+   <activity android:name=".Catelog.Event"></activity>
+        <activity android:name=".Catelog.House"></activity>
+        <activity android:name=".Catelog.Involve"></activity>
+        <activity android:name=".Catelog.Lib"></activity>
+        <activity android:name=".Catelog.Meal"></activity>
+        <activity android:name=".Catelog.Park"></activity>
+        <activity android:name=".Catelog.Other"></activity>
+<activity android:name=".user.Example"></activity>
+        <activity android:name=".Fragment.Result"></activity>
+        <activity android:name=".Infopage.Rate"></activity>
+        <activity android:name=".Infopage.Reset"></activity>
+        <activity android:name=".Infopage.Setting"></activity>
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>

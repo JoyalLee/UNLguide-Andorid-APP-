@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E41936"
+    >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:background="#E41936"
+   >
+<TextView
+
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CATELOG"
+    android:textColor="#ffff"
+    android:textSize="30sp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c2c2c2">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/lib"
+            android:layout_weight="1"
+            android:src="@drawable/lib_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/housing"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/housing_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/meal"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/meal_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/park"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/park_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/acdemic"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/academic_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/event"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/event_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:id="@+id/involve"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/involve_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/building"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/building_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/other"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/other_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

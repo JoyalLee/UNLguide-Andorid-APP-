@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/park01"
+    android:gravity="center"
+    >
+
+
+    <ImageSwitcher
+        android:layout_marginTop="5dp"
+        android:background="@drawable/wel_background"
+        android:id="@+id/imageSwitcher1"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="last"
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:text="next"
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Introduction:"
+            android:textSize="40sp"
+            android:textColor="#E41936"
+            android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Sunken Gardens was constructed during the winter of 1930-31 in Lincoln, Nebraska. It is the only garden in Nebraska listed in the National Geographic Guide to Public Gardens 300 Best Gardens to Visit in the United States and Canada.
+"
+        android:textSize="20sp"
+        android:textColor="#E41936"
+        android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+android:background="#c41b1b"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFF">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Building"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#c41b1b"/>
+
+
+    </LinearLayout>
+
+    <Gallery
+        android:layout_marginTop="10dp"
+        android:id="@+id/gallery1"
+        android:spacing="5px"
+        android:unselectedAlpha="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CBA\nThe new College of Business Administration building is the largest academic building project in the recent history at the University of Nebraska–Lincoln. Located at 14th and Vine Streets, the new building will become the east bookend for Memorial Mall looking west toward Memorial Stadium. Architects for the project are Robert A.M. Stern Architects of New York and Alley Poyner Macchietto Architecture of Omaha. The new facility will be completed in 2017."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:visibility="gone"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avery Hall\nCollege Science Building, University, and College Math Building,with Math and Computer Science Library in it."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#f4eaea"
+        android:visibility="gone"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nebraska Union\nIntroduced: 1935
+Original Cost: $400,000
+Opened: May 4, 1938
+The fact that the University of Nebraska finally got a student union is really the work of one student leader, Jack Fischer. Fischer became president of the student council in the spring of 1935 and took on getting a student union building as his project.  He organized a Committee of One Hundred, which endorsed the need for a student center and the necessity of applying for federal assistance. "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#f7eaea"
+        android:visibility="gone"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Morill Hall\nMorrill Hall closed on Easter, Independence Day, Thanksgiving,
+December 24-25, and January 1.
+
+Mueller Planetarium closed on same days as Morrill Hall, also closed Mondays and UNL home football Saturdays. Limited schedule while school is in session.
+See Planetarium show dates and times."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#f7f7f7"
+
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building4"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Andrews Hall\nADMN 326
+Lincoln, NE 68588-0424
+
+About the UComm News Team"
+        android:visibility="gone"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building6"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#e9e9e9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jorgensen Hall\nCollege Physics Building, University, and College Engineer Building"
+        android:visibility="gone"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seaton Hall\nGraduate Studies is in Seaton Hall, on U Street between 15th and 16th Streets. The door is on the south side. Our main desk is on the first floor — you'll go up a few steps and through the double doors. More about Seaton Hall...
+
+Visitor parking is available around campus; the nearest spaces are at the meters along 16th Street and S Street. Alternatively, Lincoln has several downtown parking garages which are close to campus."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burnett\nNo building had a longer gestation and construction than Burnett Hall. Originally planned as a companion building to Andrews Hall, which was completed in 1928, its construction was delayed for nearly 20 years due to the advent of the Great Depression, quickly followed by WWII."
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#fafafa"
+        android:visibility="gone"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/building9"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stadium\nMemorial Stadium is located on the campus of the University of Nebraska–Lincoln in Lincoln, Nebraska, United States. It is the home of the Nebraska Cornhuskers football team.
+
+At the conclusion of the 2016 season, the stadium holds an ongoing NCAA record of 354 consecutive sellouts, which began in 1962. When full, Memorial Stadium holds more people than any Nebraska city except Omaha and Lincoln. Because most fans wear red apparel, the stadium is referred to as the Sea of Red on game days."
+        android:visibility="gone"
+        />
+    </LinearLayout>
+</LinearLayout>

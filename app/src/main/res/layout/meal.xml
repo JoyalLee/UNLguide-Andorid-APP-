@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E41936"
+
+    android:layout_height="match_parent">
+    <TextView
+        android:background="#FFFF"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Meal"
+        android:textColor="#E41936"/>
+    <TimePicker
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    android:id="@+id/timePicker" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="55sp"
+    android:gravity="center"
+  android:text="Click to check if the time to eat"
+    android:textSize="20sp"
+            android:layout_marginRight="5dp"
+    android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/checktime"
+            android:text="Check"
+
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp" />
+
+
+    </LinearLayout>
+    <ImageSwitcher
+
+        android:background="#000000"
+        android:id="@+id/imageSwitcherm"
+
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" >
+    </ImageSwitcher>
+    <Gallery
+        android:id="@+id/gallerym"
+android:background="@drawable/meal_back"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu"/>
+        <ImageView
+            android:id="@+id/price"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:src="@drawable/price"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/location"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location"/>
+            <ImageView
+                android:id="@+id/schedule"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:src="@drawable/schedule"
+                android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

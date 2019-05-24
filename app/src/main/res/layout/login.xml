@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+android:background="#E41936">
+    <!--login-->
+    <LinearLayout
+android:orientation="horizontal"
+        android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#FFFF"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/whitelogo"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIVERSITY OF NEBRASKA-LINCOLN"
+            android:textSize="18sp"
+            android:textColor="#871c1c"
+
+            />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY.UNL.LOGIN"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#000000"
+              />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--center-->
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+            <ImageView
+
+            android:gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/user"
+            android:id="@+id/imageView"
+          />
+
+            />
+            </LinearLayout>
+
+            <EditText
+                android:layout_weight="2"
+           android:gravity="left"
+
+            android:id="@+id/unid"
+            android:textColorHint="#000000"
+            android:hint="please enter your UN ID"
+                android:layout_marginLeft="5dp"
+            android:layout_width="160dp"
+                android:layout_marginRight="50dp"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+            <ImageView
+
+            android:gravity="center"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:background="@mipmap/password"
+
+            />
+
+            </LinearLayout>
+            <EditText
+                android:layout_weight="2"
+            android:gravity="left"
+                android:layout_marginLeft="5dp"
+            android:id="@+id/pass"
+            android:textColorHint="#000000"
+            android:hint="please enter password"
+                android:layout_width="160dp"
+                android:layout_marginRight="50dp"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+            android:gravity="center"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+            android:id="@+id/login"
+            android:text="Login"
+            android:layout_width="0dp"
+                android:layout_weight="1"
+            android:layout_height="wrap_content"
+            />
+
+            <Button
+
+            android:id="@+id/register"
+            android:text="regist"
+            android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_marginRight="40dp"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/textView"
+            android:textColorHint="#ffffff"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+            android:text="You don't have UN ID?\ngo and register one"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+android:gravity="bottom"
+ android:layout_weight="0.2"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="Need help?\n Call 402-472-3970\nToll-free 866-472-3970"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

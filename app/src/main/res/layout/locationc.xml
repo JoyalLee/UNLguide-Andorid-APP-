@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:src="@drawable/dc_cpn"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cather/Pound/Neihardt's special meals and individual menu items prepared with food from local Nebraska farmers and producers is the hallmark of the GFL (Good. Fresh. Local.) The University of Nebraska-Lincoln Sustainable Food Project. The GFL project features these menu items at breakfast, lunch, and dinner. In addition to GFL, CPN features a made-to-order sandwich line at lunch and dinner along with specialty bars and other traditional breakfast, lunch and dinner menu items."
+        />
+
+</LinearLayout>

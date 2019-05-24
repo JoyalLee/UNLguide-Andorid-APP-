@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="#E41936"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:src="@drawable/example"
+        android:layout_weight="0.65" />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#ededed"
+        android:text="When the American Society of Animal Science presents awards at its July 9 annual meeting in Baltimore, those in attendance can expect to hear the University of Nebraska-Lincoln’s name announced frequently.
+
+Five Nebraska faculty and administrators have earned national awards from the society — including Chancellor Ronnie Green, who has been selected to receive the national association’s most prestigious honor.
+
+The ASAS is the leading international scientific society supporting the careers of scientists and animal producers around the world. It fosters the discovery, sharing and application of scientific knowledge concerning the responsible use of animals to enhance human life and well-being and is the publisher of the world-leading Journal of Animal Science. Founded in 1908, the society has more than 6,000 members around the globe.
+
+"/>
+
+</LinearLayout>

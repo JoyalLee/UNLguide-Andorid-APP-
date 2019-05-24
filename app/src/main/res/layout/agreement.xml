@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E41936"
+
+ >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFF"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="91dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/whitelogo"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIVERSITY OF NEBRASKA-LINCOLN"
+            android:textSize="18sp"
+            android:textColor="#871c1c"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AGREEMENT"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="This application was designed by @Joyal, For academic learning only, strictly forbidding for commercial use, please delete within 24 hours
+"
+        android:background="#E41936"
+        android:textColor="#ffffff"
+        android:id="@+id/agreement"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:background="#E41936"
+        android:text="I agree"
+        android:id="@+id/checkBox1"
+        android:textSize="80px"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:button="@drawable/check_box"
+        android:layout_width="168dp"
+        android:layout_height="73dp" />
+
+    <ImageButton
+        android:background="#E41936"
+        android:id="@+id/start"
+        android:src="@drawable/button_state"
+
+        android:paddingTop="30px"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ImageButton>
+    </LinearLayout>
+</LinearLayout>

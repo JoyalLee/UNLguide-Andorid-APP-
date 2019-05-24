@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:src="@drawable/dc_abel"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abel/Sandoz Dining Center invites you into an exciting market-style dining adventure. Choose meal items from a variety of different areas that include Home Cooking, Pizza and Pasta, American Grill, Ethnic, Salad Bar, Waffles and Desserts, and Milk and Beverages. The dining room filled with booths, tall and regular tables provides a panoramic view of the Antelope Creek Project seen through windows reaching from the floor to ceiling. Abel/Sandoz Dining Center is an unique dining center for students, staff, faculty and guests."
+
+        />
+
+</LinearLayout>

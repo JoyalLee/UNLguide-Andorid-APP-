@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cataloge">
+        <item>Transfer</item>
+        <item>International</item>
+        <item>Freshman</item>
+        <item>Program</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="catalogc">
+        <item>转学生</item>
+        <item>国际生</item>
+        <item>新生</item>
+        <item>交流生</item>
+        <item>其他</item>
+
+    </string-array>
+</resources>

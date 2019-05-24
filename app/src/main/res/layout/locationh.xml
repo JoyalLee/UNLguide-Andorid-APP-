@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:src="@drawable/dc_harper"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harper Dining Center heralds a market place design where students enjoy menu items from a variety of stations that include pizza and pasta, traditional, ethnic cuisine, deli bar, grill and salad/soup bar. After making their meal selections, students can relax with friends-chatting in booths or seated at high-top tables watching the news or sports shows on one of the many suspended TVs."
+        />
+
+</LinearLayout>

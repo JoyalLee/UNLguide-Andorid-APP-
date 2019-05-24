@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:src="@drawable/dc_east"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If students are hungry for more than a sandwich at lunch, the East Campus Union Cafe offers a variety of menu items located at different serving stations. East Campus Union Cafe joins CPN Dining Service in serving the wildly popular GFL (Good. Fresh. Local) monthly special meals. In addition to the monthly GFL meals, there are individual GFL menu items served on a daily basis.
+
+The GFL program began in September 2005 and is a very popular local dining program with students and the UNL community. This local program defines 'local' as food that comes from Nebraska farmers, producers, and manufacturers."
+        />
+
+</LinearLayout>

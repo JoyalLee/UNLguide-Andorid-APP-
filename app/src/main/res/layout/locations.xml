@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:src="@drawable/dc_selleck"/>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selleck's market-place atmosphere welcomes students with its open design and varied dining experiences. These include stone-baked pizza, pasta and more, made-to-order deli and soup bar, ethnic cuisine, omelet bar, traditional fare, American grill, fabulous salad bar, and a breakfast station."
+        />
+
+</LinearLayout>

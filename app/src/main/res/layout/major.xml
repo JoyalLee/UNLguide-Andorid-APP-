@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+android:background="#E41936"
+
+    >
+<TextView
+    android:background="#FFFF"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Major"
+    android:textColor="#E41936"/>
+    <Gallery
+
+        android:id="@+id/gallery2"
+        android:spacing="5px"
+        android:unselectedAlpha="0.6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#E41936"
+        android:gravity="bottom|center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slide to choose"
+        android:textColor="#FFFF"/>
+</LinearLayout>
